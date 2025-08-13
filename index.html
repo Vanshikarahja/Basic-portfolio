@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshika Raheja - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color:#061129;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            /* background: #333; */
+            background-image: url('./code3.gif');
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 10px;
+            border: 3px solid #fff;
+        }
+         nav {
+            background: black;
+            color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        .nav-left h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .nav-right ul {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+            display: flex;
+        }
+        .nav-right ul li {
+            margin-left: 20px;
+        }
+        .nav-right ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        .nav-right ul li a:hover {
+            color: #f4a261;
+        }
+
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            margin-bottom: 5px;
+            border-bottom: none;
+        }
+        .project p {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+      <nav>
+        <div class="nav-container">
+            <div class="nav-left">
+                <h3>Vanshika Raheja</h3>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <img src="mymyPhoto.png" alt="Vanshika Raheja" class="profile-photo">
+            <h1>Vanshika Raheja</h1>
+            <p>Full Stack Developer</p>
+            <div class="contact-info" color="#fff">
+                <a href="mailto:vanshikaraheja07@gmail.com">vanshikaraheja07@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/vanshika-raheja-21095b281/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/Vanshikarahja" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+     
+
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a final-year Computer Science student and a Full Stack Developer with experience in Java and React. I am passionate about building practical and secure software solutions.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Technology in Computer Science & Information Technology</strong>, Meerut Institute of Engineering and Technology (July 2022 - June 2026) - GPA: 8.1</li>
+                <li><strong>Senior Secondary Education</strong>, KK Public School (2020-2022) - Percentage: 90%</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="project">
+                <h3>Java Full-Stack Internship</h3>
+                <p>Developed two end-to-end applications using Java, Spring Boot, and Hibernate, building both scalable RESTful APIs and over 10 responsive front-end components.</p>
+            </div>
+            <div class="project">
+                <h3>Web Development Internship</h3>
+                <p>Engineered a responsive portfolio website from concept to completion using HTML, CSS, and JavaScript, independently managing the entire front-end development lifecycle.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> HTML5, CSS3, JavaScript, Java</li>
+                <li><strong>Frameworks/Libraries:</strong> ReactJs, ExpressJs, NodeJs</li>
+                <li><strong>Databases:</strong> MySQL, MongoDB</li>
+                <li><strong>Tools:</strong> Git & Github, Oracle, Postman</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Career_Campus</h3>
+                <p>An interactive career exploration platform using React, React Router, and Node.js. This 3-in-1 platform helps students explore career paths and see if a chosen field matches their skills and interests.</p>
+            </div>
+            <div class="project">
+                <h3>LeaderBoard-Web-App</h3>
+                <p>A real-time leaderboard system built with React, Node.js, and MongoDB. It includes features like user selection, point claiming, and history tracking to enhance engagement and interactivity.</p>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>
